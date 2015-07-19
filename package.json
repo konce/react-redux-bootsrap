@@ -1,0 +1,34 @@
+{
+  "name": "react-redux-bootstrap",
+  "version": "0.1.0",
+  "description": "",
+  "main": "proxy.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.6.17",
+    "babel-loader": "^5.3.1",
+    "babel-runtime": "^5.6.17",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "flux-standard-action": "^0.6.0",
+    "immutable": "^3.7.4",
+    "moment": "^2.10.3",
+    "qs": "^4.0.0",
+    "react": "^0.13.3",
+    "react-redux": "^0.2.1",
+    "react-router": "^1.0.0-beta3",
+    "redux": "^1.0.0-rc",
+    "superagent": "^1.2.0",
+    "url": "^0.10.3"
+  }
+}
