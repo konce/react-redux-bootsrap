@@ -7,7 +7,7 @@ module.exports = {
     app:    './main',
     vendor: [
       'react', 'redux', 'react-redux', 'flux-standard-action',
-      'react-router', 'react-router/lib/BrowserHistory',
+      'react-router', 'react-router/lib/BrowserHistory', 'react-router/lib/HashHistory',
       'moment', 'superagent', 'bluebird', 'qs', 'url', 'immutable'
     ]
   },
